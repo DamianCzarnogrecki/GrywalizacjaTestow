@@ -1,0 +1,342 @@
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Client.staticwebassets.runtime.json
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\appsettings.Development.json
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\appsettings.json
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.staticwebassets.runtime.json
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.exe
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.deps.json
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.runtimeconfig.json
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.pdb
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Client.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Shared.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Client.pdb
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Shared.pdb
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.AssemblyReference.cache
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.AssemblyInfoInputs.cache
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.AssemblyInfo.cs
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.CoreCompileInputs.cache
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.RazorAssemblyInfo.cache
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.RazorAssemblyInfo.cs
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets\msbuild.BlazorApp1.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorApp1.Server.props
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp1.Server.props
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorApp1.Server.props
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets.pack.json
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets.build.json
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets.development.json
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\scopedcss\bundle\BlazorApp1.Server.styles.css
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.CopyComplete
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\refint\BlazorApp1.Server.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.pdb
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.genruntimeconfig.cache
+C:\VisualStudioProjekty\BlazorApp1\Server\obj\Debug\net7.0\ref\BlazorApp1.Server.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\MudBlazor.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Dapper.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Google.Protobuf.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\MySql.Data.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\ZstdNet.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\comerr64.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\gssapi64.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\k5sprt64.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\krb5_64.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\krbcc64.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Azure.Core.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Azure.Identity.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.Memory.Data.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\EntityFramework.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.CodeDom.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\VisualStudioProjekty\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\appsettings.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Client.staticwebassets.runtime.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.staticwebassets.runtime.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.exe
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.deps.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.runtimeconfig.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Server.pdb
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Dapper.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\EntityFramework.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\ZstdNet.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\comerr64.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\gssapi64.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\k5sprt64.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\krb5_64.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\krbcc64.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Client.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Shared.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Client.pdb
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\bin\Debug\net7.0\BlazorApp1.Shared.pdb
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.AssemblyReference.cache
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.AssemblyInfoInputs.cache
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.AssemblyInfo.cs
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.RazorAssemblyInfo.cache
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.RazorAssemblyInfo.cs
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets\msbuild.BlazorApp1.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorApp1.Server.props
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp1.Server.props
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorApp1.Server.props
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\scopedcss\bundle\BlazorApp1.Server.styles.css
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.CopyComplete
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\refint\BlazorApp1.Server.dll
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.pdb
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.genruntimeconfig.cache
+C:\Users\Damian\Desktop\projekty\projekt in blanco\BlazorApp1\Server\obj\Debug\net7.0\ref\BlazorApp1.Server.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Client.staticwebassets.runtime.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\appsettings.Development.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\appsettings.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Server.staticwebassets.runtime.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Server.exe
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Server.deps.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Server.runtimeconfig.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Server.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Server.pdb
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Azure.Core.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Azure.Identity.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Dapper.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\EntityFramework.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Google.Protobuf.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\MudBlazor.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\MySql.Data.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\ZstdNet.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\comerr64.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\gssapi64.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\k5sprt64.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\krb5_64.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\krbcc64.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.CodeDom.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.Memory.Data.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Client.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Shared.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Client.pdb
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\bin\Debug\net7.0\BlazorApp1.Shared.pdb
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.AssemblyReference.cache
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.AssemblyInfoInputs.cache
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.AssemblyInfo.cs
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.CoreCompileInputs.cache
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.RazorAssemblyInfo.cache
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.RazorAssemblyInfo.cs
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\staticwebassets\msbuild.BlazorApp1.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorApp1.Server.props
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp1.Server.props
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorApp1.Server.props
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\staticwebassets.pack.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\staticwebassets.build.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\staticwebassets.development.json
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\scopedcss\bundle\BlazorApp1.Server.styles.css
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.csproj.CopyComplete
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\refint\BlazorApp1.Server.dll
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.pdb
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\BlazorApp1.Server.genruntimeconfig.cache
+C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Server\obj\Debug\net7.0\ref\BlazorApp1.Server.dll

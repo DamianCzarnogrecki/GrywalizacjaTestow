@@ -1,0 +1,39 @@
+﻿@inject IPlayerService Service
+
+@page "/stats"
+<PageTitle>Statystyki</PageTitle>
+<MudPaper Elevation="20" Class="px-5" style="display: inline-block;">
+
+    <MudText Typo="Typo.h6" Class="mb-8">
+        Średni procent prawidłowych odpowiedzi: @correctToIncorrectAnswersRatio
+    </MudText>
+
+    <MudText Typo="Typo.h6" Class="mb-8">
+        Średnia liczba miast na gracza: @nrOfCities
+    </MudText>
+
+    <MudText Typo="Typo.h6" Class="mb-8">
+        Numer najtrudniejszego pytania: @hardestQuestionNr
+    </MudText>
+
+    <MudText Typo="Typo.h6">
+        Przeciętny czas (w sekundach) odpowiedzi na pytanie: @answerTime
+    </MudText>
+
+</MudPaper>
+
+@code
+{
+    private float correctToIncorrectAnswersRatio;
+    private double nrOfCities, answerTime;
+    private int hardestQuestionNr;
+
+    protected override async Task OnInitializedAsync()
+    {
+        correctToIncorrectAnswersRatio = await Service.GetCorrectAnswersCount();
+        correctToIncorrectAnswersRatio *= 100;
+        nrOfCities = await Service.GetAvgNrOfCities();
+        hardestQuestionNr = await Service.GetHardestQuestionNr();
+        answerTime = await Service.GetAvgAnswerTime();
+    }
+}

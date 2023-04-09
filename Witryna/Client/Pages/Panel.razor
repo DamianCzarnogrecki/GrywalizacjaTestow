@@ -1,0 +1,38 @@
+﻿@page "/tajnypanelpostepowgraczy"
+@inject IPlayerService Service
+<PageTitle>Panel</PageTitle>
+
+<MudTable Items="Service.Players" Hover="true" Striped="true" Dense="true" Class="mb-2">
+    <HeaderContent>
+        <MudTh>ID</MudTh>
+        <MudTh>Nazwa</MudTh>
+        <MudTh>Liczba terenów</MudTh>
+        <MudTh>Suma prawidłowych odpowiedzi</MudTh>
+        <MudTh>Suma nieprawidłowych odpowiedzi</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="ID">@context.id</MudTd>
+        <MudTd DataLabel="Nazwa">@context.login</MudTd>
+        <MudTd DataLabel="Tereny">@nrOfLands[context.id-1]</MudTd>
+        <MudTd DataLabel="Odpowiedzi dobre">@nrOfCorrectAnswers[context.id-1]</MudTd>
+        <MudTd DataLabel="Odpowiedzi złe">@nrOfIncorrectAnswers[context.id-1]</MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code
+{
+    private int[] nrOfLands;
+    private int[] nrOfCorrectAnswers;
+    private int[] nrOfIncorrectAnswers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Service.GetPlayers();
+        await Service.GetLandsPerPlayer();
+        await Service.GetPlayerAnswersCount(true);
+        await Service.GetPlayerAnswersCount(false);
+        nrOfLands = Service.NrOfLands;
+        nrOfCorrectAnswers = Service.CorrectAnswersCount;
+        nrOfIncorrectAnswers = Service.IncorrectAnswersCount;
+    }
+}

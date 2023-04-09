@@ -1,0 +1,70 @@
+﻿@page "/register"
+@inject IPlayerService Service
+
+<MudText Typo="Typo.h4" Class="pt-4 pb-4 mb-6">Rejestracja</MudText>
+
+<EditForm Model="userData">
+    <DataAnnotationsValidator />
+    <MudCard Class="mb-10">
+        <MudCardContent>
+            <MudTextField Label="Login" Counter="32" Clearable="true" @bind-Value="userData.Login" For="@(() => userData.Login)"></MudTextField>
+            <MudTextField Label="Hasło" Counter="32" Clearable="true" @bind-Value="userData.Password" For="@(() => userData.Password)" InputType="@inputType" Adornment="Adornment.End" AdornmentIcon="@passwordIcon" OnAdornmentClick="UkrywanieHasla"></MudTextField>
+        </MudCardContent>
+    </MudCard>
+    <MudButton @onclick="Zarejestruj" Variant="Variant.Filled" Color="Color.Primary" Class="mr-4 mt-4">ZAREJESTRUJ SIĘ</MudButton>
+</EditForm>
+<MudAlert hidden=@hideInfo Severity=@infoSeverity Variant="Variant.Filled" Elevation="20" Class="mt-10">@infoText</MudAlert>
+
+@code
+{
+    private EnteredUserData userData = new EnteredUserData { };
+    private bool hideInfo = true;
+    private string infoText = "";
+    private Severity infoSeverity = Severity.Info;
+
+    async Task Zarejestruj()
+    {
+        userData.Login = userData.Login.ToString();
+        userData.Password = userData.Password.ToString();
+        await Service.Register(userData);
+        bool? registrationSuccessful = null;
+        registrationSuccessful = Service.RegisterError;
+        hideInfo = false;
+        if (registrationSuccessful == true)
+        {
+            infoText = "ZAREJESTROWANO POMYŚLNIE";
+            infoSeverity = Severity.Info;
+        }
+        else if (registrationSuccessful == false)
+        {
+            infoText = "BŁĄD REJESTRACJI";
+            infoSeverity = Severity.Error;
+        }
+        else
+        {
+            infoText = "BŁĄD";
+            infoSeverity = Severity.Error;
+        }
+        await Task.Delay(1);
+    }
+
+    private bool passwordVisible;
+    private string passwordIcon = Icons.Material.Filled.VisibilityOff;
+    private InputType inputType = InputType.Password;
+
+    void UkrywanieHasla()
+    {
+        if (passwordVisible)
+        {
+            passwordVisible = false;
+            passwordIcon = Icons.Material.Filled.VisibilityOff;
+            inputType = InputType.Password;
+        }
+        else
+        {
+            passwordVisible = true;
+            passwordIcon = Icons.Material.Filled.Visibility;
+            inputType = InputType.Text;
+        }
+    }
+}
