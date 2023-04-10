@@ -34,3 +34,15 @@ C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Shared\obj\Debug\net7.0\Blazo
 C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Shared\obj\Debug\net7.0\refint\BlazorApp1.Shared.dll
 C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Shared\obj\Debug\net7.0\BlazorApp1.Shared.pdb
 C:\VisualStudioProjekty\GrywalizacjaTestow\Witryna\Shared\obj\Debug\net7.0\ref\BlazorApp1.Shared.dll
+D:\Grywalizacja\Witryna\Shared\bin\Debug\net7.0\BlazorApp1.Shared.deps.json
+D:\Grywalizacja\Witryna\Shared\bin\Debug\net7.0\BlazorApp1.Shared.dll
+D:\Grywalizacja\Witryna\Shared\bin\Debug\net7.0\BlazorApp1.Shared.pdb
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\BlazorApp1.Shared.csproj.AssemblyReference.cache
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\BlazorApp1.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\BlazorApp1.Shared.AssemblyInfoInputs.cache
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\BlazorApp1.Shared.AssemblyInfo.cs
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\BlazorApp1.Shared.csproj.CoreCompileInputs.cache
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\BlazorApp1.Shared.dll
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\refint\BlazorApp1.Shared.dll
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\BlazorApp1.Shared.pdb
+D:\Grywalizacja\Witryna\Shared\obj\Debug\net7.0\ref\BlazorApp1.Shared.dll

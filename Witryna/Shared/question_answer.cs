@@ -7,7 +7,7 @@ namespace BlazorApp1.Shared
     {
         [Key]
         public int id { get; set; }
-        public bool is_correct { get; set; }
+        public byte is_correct { get; set; }
         public int question_id { get; set; }
         [ForeignKey("question_id")]
         public question question { get; set; }

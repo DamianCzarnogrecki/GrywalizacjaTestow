@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sWgWgSyUDtUcPrRhYUUpIBw1mJoQjPpacnNkajHdd2lXHYxUdkTdCYxdnlOHlr8AxHcjruLHqeYlrP0jEHprcA==",
+  "dgSpecHash": "3McIVYRZYGpO4RUD9t4THE7KavLyzmOL7tYHNzIhoDvNdGHOIXJGOhWbGXFE95UhmqKE8e735pZumEbt8kcW+g==",
   "success": true,
-  "projectFilePath": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Server\\BlazorApp1.Server.csproj",
+  "projectFilePath": "D:\\Grywalizacja\\Witryna\\Server\\BlazorApp1.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Damian\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Damian\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

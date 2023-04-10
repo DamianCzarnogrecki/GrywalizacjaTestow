@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Shared\\BlazorApp1.Shared.csproj": {}
+    "D:\\Grywalizacja\\Witryna\\Shared\\BlazorApp1.Shared.csproj": {}
   },
   "projects": {
-    "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Shared\\BlazorApp1.Shared.csproj": {
+    "D:\\Grywalizacja\\Witryna\\Shared\\BlazorApp1.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Shared\\BlazorApp1.Shared.csproj",
+        "projectUniqueName": "D:\\Grywalizacja\\Witryna\\Shared\\BlazorApp1.Shared.csproj",
         "projectName": "BlazorApp1.Shared",
-        "projectPath": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Shared\\BlazorApp1.Shared.csproj",
+        "projectPath": "D:\\Grywalizacja\\Witryna\\Shared\\BlazorApp1.Shared.csproj",
         "packagesPath": "C:\\Users\\Damian\\.nuget\\packages\\",
-        "outputPath": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Shared\\obj\\",
+        "outputPath": "D:\\Grywalizacja\\Witryna\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Damian\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1902,11 +1902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Client\\BlazorApp1.Client.csproj",
+      "projectUniqueName": "D:\\Grywalizacja\\Witryna\\Client\\BlazorApp1.Client.csproj",
       "projectName": "BlazorApp1.Client",
-      "projectPath": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Client\\BlazorApp1.Client.csproj",
+      "projectPath": "D:\\Grywalizacja\\Witryna\\Client\\BlazorApp1.Client.csproj",
       "packagesPath": "C:\\Users\\Damian\\.nuget\\packages\\",
-      "outputPath": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Client\\obj\\",
+      "outputPath": "D:\\Grywalizacja\\Witryna\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Damian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1923,8 +1923,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Shared\\BlazorApp1.Shared.csproj": {
-              "projectPath": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Shared\\BlazorApp1.Shared.csproj"
+            "D:\\Grywalizacja\\Witryna\\Shared\\BlazorApp1.Shared.csproj": {
+              "projectPath": "D:\\Grywalizacja\\Witryna\\Shared\\BlazorApp1.Shared.csproj"
             }
           }
         }

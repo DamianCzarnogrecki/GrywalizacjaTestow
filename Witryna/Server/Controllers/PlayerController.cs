@@ -89,7 +89,7 @@ namespace BlazorApp1.Server.Controllers
         public async Task<ActionResult<List<given_answer>>> GetCorrectAnswersCount()
         {
             var correctAnswers = (from q in context.question_answer
-                                  where q.is_correct == true
+                                  where q.is_correct == 1
                                   join g in context.given_answer
                                       on q.id equals g.question_answer_id
                                   select new
@@ -121,7 +121,7 @@ namespace BlazorApp1.Server.Controllers
                         join qa in context.question_answer on q.id equals qa.question_id
                         join ga in context.given_answer on qa.id equals ga.question_answer_id
                         group qa by q.id into qag
-                        orderby qag.Sum(qa => qa.is_correct ? 1 : 0) ascending
+                        orderby qag.Sum(qa => qa.is_correct == 1 ? 1 : 0) ascending
                         select qag.Key;
             return Ok(query.FirstOrDefault());
         }
@@ -147,7 +147,7 @@ namespace BlazorApp1.Server.Controllers
                                on givenAnswer.question_answer_id equals questionAnswer.id into questionAnswersGroup
                            from questionAnswer in questionAnswersGroup.DefaultIfEmpty()
                            group new { questionAnswer.is_correct } by player.id into playerGroup
-                           select playerGroup.Count(qa => qa.is_correct == answerCorrectness);
+                           select playerGroup.Count(qa => qa.is_correct == Convert.ToByte(answerCorrectness));
             return Ok(response.ToArray());
         }
     }

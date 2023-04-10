@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5qo/+hfOofbJ2pc+XB43+1ZSWCfWjONjcifkEs2lfEBGQ2pBEzOwsMX/67sH2AWc4k17qfHvJOTpersggBIoQ==",
+  "dgSpecHash": "bOxDGPrPBzBVQdpk4B0Vsi6M9xmNJI0prqLa8zKk6FAlRih5/bYkqlkb4V7drh1q4v+yFjPZw8XrCAc6u0QLZQ==",
   "success": true,
-  "projectFilePath": "C:\\VisualStudioProjekty\\GrywalizacjaTestow\\Witryna\\Client\\BlazorApp1.Client.csproj",
+  "projectFilePath": "D:\\Grywalizacja\\Witryna\\Client\\BlazorApp1.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Damian\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.1\\microsoft.aspnetcore.authorization.7.0.1.nupkg.sha512",
     "C:\\Users\\Damian\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.1\\microsoft.aspnetcore.components.7.0.1.nupkg.sha512",
