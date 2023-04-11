@@ -14,14 +14,27 @@ public class QuestionController : MonoBehaviour
 {
     private string url = "https://localhost:7060/api/question";
     private string questionText;
-    private List<string> answerTexts = new List<string>(); 
-    private List<int> answerIDs = new List<int>();
-    public GameObject answerPrefab;
-    public GameObject answersContainer;
+    private List<string> answerTexts; 
+    private List<int> answerIDs;
     private int questionID;
+    [SerializeField]
+    private GameObject answerPrefab;
+    [SerializeField]
+    private GameObject answersContainer;
 
     void Start()
     {
+        StartGettingQuestion();
+    }
+
+    public void StartGettingQuestion()
+    {
+        foreach (Transform child in answersContainer.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+        answerTexts = new List<string>();
+        answerIDs = new List<int>();
         StartCoroutine(GetQuestion());
     }
 
@@ -38,6 +51,7 @@ public class QuestionController : MonoBehaviour
             var json = JSON.Parse(request.downloadHandler.text);
             questionText = json["question"]["text"];
             questionID = json["question"]["id"];
+            
 
             JSONArray answersArray = json["answers"].AsArray;
             for (int i = 0; i < answersArray.Count; i++)
@@ -57,30 +71,9 @@ public class QuestionController : MonoBehaviour
                 GameObject answerObject = Instantiate(answerPrefab, answersContainer.transform);
                 answerObject.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, (-i * buttonHeight)+130);
                 answerObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = answerTexts[i];
-                answerObject.GetComponent<AnswerController>().id = answerIDs[i];
+                answerObject.GetComponent<AnswerController>().answerID = answerIDs[i];
+                answerObject.GetComponent<AnswerController>().questionID = questionID;
             }
-        }
-    }
-
-    public async Task<int> CheckAnswer(int answerID)
-    {
-        string url = "https://localhost:7060/api/question/question/" + questionID.ToString() + "/answer/" + answerID.ToString();
-
-        using (HttpClient client = new HttpClient())
-        {
-            //potrzebne naglowki
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-            HttpResponseMessage response = await client.GetAsync(url);
-            response.EnsureSuccessStatusCode();
-
-            string content = await response.Content.ReadAsStringAsync();
-            int result = int.Parse(content);
-
-            //TEST
-            Debug.Log(result);
-            return result;
         }
     }
 }

@@ -1,7 +1,8 @@
 ﻿using BlazorApp1.Client.Services;
 using BlazorApp1.Shared;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
+using System.Data.Entity;
 
 namespace BlazorApp1.Server.Controllers
 {
@@ -41,5 +42,7 @@ namespace BlazorApp1.Server.Controllers
 
             return questionAnswer.is_correct;
         }
+
+
     }
 }
