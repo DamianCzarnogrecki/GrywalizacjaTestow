@@ -6,6 +6,8 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using UnityEngine.UI;
 using TMPro;
+using System;
+using System.Text;
 
 public class AnswerController : MonoBehaviour
 {
@@ -72,7 +74,23 @@ public class AnswerController : MonoBehaviour
             if(result == 1) answerIcon.sprite = goodAnswerIcon;
             else answerIcon.sprite = wrongAnswerIcon;
 
-            yield return null;
+            yield return PostAnswer();
+        }
+    }
+
+    IEnumerator PostAnswer()
+    {
+        string url = "https://localhost:7060/api/question/answer";
+
+        using (HttpClient client = new HttpClient())
+        {
+            var json = $"{{\"data_player_id\": 2, \"data_question_id\": {questionID}, \"data_seconds_spent\": 11, \"data_answer_id\": {answerID}}}";
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = null;
+            var task = client.PostAsync(url, content);
+            yield return new WaitUntil(() => task.IsCompleted);
+            response = task.Result;
         }
     }
 

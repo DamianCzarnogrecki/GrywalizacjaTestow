@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 using BlazorApp1.Client.Services;
 using System.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using static BlazorApp1.Server.Controllers.QuestionController;
 
 namespace BlazorApp1.Server.Controllers
 {
@@ -149,6 +151,43 @@ namespace BlazorApp1.Server.Controllers
                            group new { questionAnswer.is_correct } by player.id into playerGroup
                            select playerGroup.Count(qa => qa.is_correct == Convert.ToByte(answerCorrectness));
             return Ok(response.ToArray());
+        }
+
+        [HttpPost("login")]
+        public async Task<int> Login([FromBody] PlayerData playerDataFromUser)
+        {
+            var playerDataFromDatabase = await context.Player.FirstOrDefaultAsync(p => p.login == playerDataFromUser.login);
+            if (playerDataFromDatabase == null) return 0;
+
+            if (playerDataFromDatabase.password_hash != null && playerDataFromDatabase.password_salt != null)
+            {
+                if (
+                    PasswordVerification(
+                        playerDataFromUser.password,
+                        playerDataFromDatabase.password_hash,
+                        playerDataFromDatabase.password_salt
+                    )
+                )
+                {
+                    return playerDataFromDatabase.id;
+                }
+            }
+            return 0;
+        }
+
+        private bool PasswordVerification(string haslo, byte[] hash, byte[] salt)
+        {
+            using (var hmac = new HMACSHA512(salt))
+            {
+                var gotowyHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(haslo));
+                return gotowyHash.SequenceEqual(hash);
+            }
+        }
+
+        public class PlayerData
+        {
+            public string login { get; set; }
+            public string password { get; set; }
         }
     }
 }

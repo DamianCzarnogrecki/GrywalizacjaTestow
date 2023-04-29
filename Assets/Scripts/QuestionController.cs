@@ -24,7 +24,7 @@ public class QuestionController : MonoBehaviour
 
     void Start()
     {
-        StartGettingQuestion();
+        //StartGettingQuestion();
     }
 
     public void StartGettingQuestion()

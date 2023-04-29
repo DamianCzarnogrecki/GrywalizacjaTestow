@@ -5,6 +5,7 @@ namespace BlazorApp1.Shared
 {
     public class given_answer
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
         public int id { get; set; }
         public int answered_question_id { get; set; }

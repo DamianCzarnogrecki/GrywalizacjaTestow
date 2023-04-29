@@ -2,7 +2,7 @@
 using BlazorApp1.Shared;
 using Microsoft.AspNetCore.Mvc;
 
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApp1.Server.Controllers
 {
@@ -43,6 +43,36 @@ namespace BlazorApp1.Server.Controllers
             return questionAnswer.is_correct;
         }
 
+        [HttpPost("answer")]
+        public async Task<IActionResult> AnswerQuestion([FromBody] AnswerQuestionData data)
+        {
+            var answeredQuestion = new answered_question
+            {
+                player_id = data.data_player_id,
+                question_id = data.data_question_id,
+                answered_on = DateTime.Now,
+                seconds_spent = data.data_seconds_spent
+            };
+            context.answered_question.Add(answeredQuestion);
+            await context.SaveChangesAsync();
 
+            var givenAnswer = new given_answer
+            {
+                answered_question_id = answeredQuestion.id,
+                question_answer_id = data.data_answer_id
+            };
+            context.given_answer.Add(givenAnswer);
+            await context.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        public class AnswerQuestionData
+        {
+            public int data_player_id { get; set; }
+            public int data_question_id { get; set; }
+            public int data_seconds_spent { get; set; }
+            public int data_answer_id { get; set; }
+        }
     }
 }
