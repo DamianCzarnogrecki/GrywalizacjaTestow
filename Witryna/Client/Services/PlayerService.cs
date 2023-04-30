@@ -60,5 +60,19 @@ namespace BlazorApp1.Client
             double response = await http.GetFromJsonAsync<double>("https://localhost:7060/api/getavganswertime");
             return response;
         }
+
+        public int[] GetNrOfLandsArray()
+        {
+            return NrOfLands;
+        }
+        public int[] GetCorrectAnswersCountArray()
+        {
+            return CorrectAnswersCount;
+        }
+
+        public int[] GetIncorrectAnswersCountArray()
+        {
+            return IncorrectAnswersCount;
+        }
     }
 }

@@ -17,5 +17,8 @@ namespace BlazorApp1.Client.Services
         Task GetLandsPerPlayer();
         Task GetPlayerAnswersCount(bool correctness);
         bool? RegisterError { get; set; }
+        int[] GetNrOfLandsArray();
+        int[] GetCorrectAnswersCountArray();
+        int[] GetIncorrectAnswersCountArray();
     }
 }

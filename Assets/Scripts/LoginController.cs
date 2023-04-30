@@ -22,6 +22,7 @@ public class LoginController : MonoBehaviour
     [SerializeField]
     private GameObject loginPanel, loginButton, logoutButton;
     public PlayerDataController playerDataController;
+    private TextMeshProUGUI nicknameText;
 
     public void Login()
     {
@@ -66,8 +67,12 @@ public class LoginController : MonoBehaviour
                 }
                 else errorText.text = "BŁĄD LOGOWANIA";
                 playerDataController.playerid = returnedID;
-                
+                nicknameText = GameObject.Find("PlayerInfoPanel").transform.Find("Nickname").GetComponent<TextMeshProUGUI>();
+                nicknameText.text = nickname;
             }
+
+            yield return StartCoroutine(playerDataController.GetLandsCount());
+            yield return StartCoroutine(playerDataController.GetEpoch());
         }
     }
 }

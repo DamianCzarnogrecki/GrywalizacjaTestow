@@ -7,15 +7,19 @@
         <MudTh>ID</MudTh>
         <MudTh>Nazwa</MudTh>
         <MudTh>Liczba terenów</MudTh>
+        <MudTh>Suma odpowiedzi</MudTh>
         <MudTh>Suma prawidłowych odpowiedzi</MudTh>
         <MudTh>Suma nieprawidłowych odpowiedzi</MudTh>
+        <MudTh>Procent prawidłowych odpowiedzi</MudTh>
     </HeaderContent>
     <RowTemplate>
         <MudTd DataLabel="ID">@context.id</MudTd>
         <MudTd DataLabel="Nazwa">@context.login</MudTd>
         <MudTd DataLabel="Tereny">@nrOfLands[context.id-1]</MudTd>
+        <MudTd DataLabel="Odpowiedzi">@(nrOfCorrectAnswers[context.id - 1] + nrOfIncorrectAnswers[context.id - 1])</MudTd>
         <MudTd DataLabel="Odpowiedzi dobre">@nrOfCorrectAnswers[context.id-1]</MudTd>
         <MudTd DataLabel="Odpowiedzi złe">@nrOfIncorrectAnswers[context.id-1]</MudTd>
+        <MudTd DataLabel="Procent odpowiedzi dobrych">@((nrOfCorrectAnswers[context.id - 1] * 100) / (nrOfCorrectAnswers[context.id - 1] + nrOfIncorrectAnswers[context.id - 1]))</MudTd>
     </RowTemplate>
 </MudTable>
 
@@ -24,6 +28,8 @@
     private int[] nrOfLands;
     private int[] nrOfCorrectAnswers;
     private int[] nrOfIncorrectAnswers;
+    private int[] nrOfAnswers;
+    private float[] correctnessRatio;
 
     protected override async Task OnInitializedAsync()
     {
@@ -31,8 +37,8 @@
         await Service.GetLandsPerPlayer();
         await Service.GetPlayerAnswersCount(true);
         await Service.GetPlayerAnswersCount(false);
-        nrOfLands = Service.NrOfLands;
-        nrOfCorrectAnswers = Service.CorrectAnswersCount;
-        nrOfIncorrectAnswers = Service.IncorrectAnswersCount;
+        nrOfLands = Service.GetNrOfLandsArray();
+        nrOfCorrectAnswers = Service.GetCorrectAnswersCountArray();
+        nrOfIncorrectAnswers = Service.GetIncorrectAnswersCountArray();
     }
 }

@@ -16,6 +16,8 @@ public class AnswerController : MonoBehaviour
     public Image answerIcon;
     [SerializeField]
     public Sprite goodAnswerIcon, wrongAnswerIcon;
+    public Timer timer;
+    private int playerID;
 
     public void StartCheckingAnswer()
     {
@@ -81,10 +83,12 @@ public class AnswerController : MonoBehaviour
     IEnumerator PostAnswer()
     {
         string url = "https://localhost:7060/api/question/answer";
+        timer = GameObject.Find("Timer").GetComponent<Timer>();
+        playerID = GameObject.Find("PlayerData").GetComponent<PlayerDataController>().playerid;
 
         using (HttpClient client = new HttpClient())
         {
-            var json = $"{{\"data_player_id\": 2, \"data_question_id\": {questionID}, \"data_seconds_spent\": 11, \"data_answer_id\": {answerID}}}";
+            var json = $"{{\"data_player_id\": {playerID}, \"data_question_id\": {questionID}, \"data_seconds_spent\": {timer.passedSeconds}, \"data_answer_id\": {answerID}}}";
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
             HttpResponseMessage response = null;
@@ -93,6 +97,4 @@ public class AnswerController : MonoBehaviour
             response = task.Result;
         }
     }
-
-
 }

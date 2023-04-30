@@ -21,21 +21,41 @@ public class QuestionController : MonoBehaviour
     private GameObject answerPrefab;
     [SerializeField]
     private GameObject answersContainer;
+    public Timer timer;
+    public TextMeshProUGUI MustBeLoggedText;
+    private PlayerDataController playerDataController;
+    public ButtonHider buttonHider;
 
     void Start()
     {
         //StartGettingQuestion();
+        timer = GameObject.Find("Timer").GetComponent<Timer>();
+        playerDataController = GameObject.Find("PlayerData").GetComponent<PlayerDataController>();
+        MustBeLoggedText = GameObject.Find("MustBeLoggedText").GetComponent<TextMeshProUGUI>();
+        buttonHider = GameObject.Find("NextQuestionButton").GetComponent<ButtonHider>();
     }
 
     public void StartGettingQuestion()
     {
-        foreach (Transform child in answersContainer.transform)
+        if(playerDataController.playerid > 0)
         {
-            GameObject.Destroy(child.gameObject);
+            foreach (Transform child in answersContainer.transform)
+            {
+                GameObject.Destroy(child.gameObject);
+            }
+            answerTexts = new List<string>();
+            answerIDs = new List<int>();
+            StartCoroutine(GetQuestion());
+            timer.passedSeconds = 0;
+
+            MustBeLoggedText.enabled = false;
+            buttonHider.HideTheButton();
         }
-        answerTexts = new List<string>();
-        answerIDs = new List<int>();
-        StartCoroutine(GetQuestion());
+        else
+        {
+            MustBeLoggedText.enabled = true;
+        }
+
     }
 
     IEnumerator GetQuestion()
