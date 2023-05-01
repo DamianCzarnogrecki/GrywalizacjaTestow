@@ -22,7 +22,12 @@ public class LoginController : MonoBehaviour
     [SerializeField]
     private GameObject loginPanel, loginButton, logoutButton;
     public PlayerDataController playerDataController;
-    private TextMeshProUGUI nicknameText;
+    private TextMeshProUGUI nicknameText, nextTownPossibleText;
+    
+    void Start()
+    {
+        nextTownPossibleText = GameObject.Find("NextTownPossibleText").GetComponent<TextMeshProUGUI>();    
+    }
 
     public void Login()
     {
@@ -73,6 +78,9 @@ public class LoginController : MonoBehaviour
 
             yield return StartCoroutine(playerDataController.GetLandsCount());
             yield return StartCoroutine(playerDataController.GetEpoch());
+            yield return StartCoroutine(playerDataController.GetAnswerCount());
+
+            if(playerDataController.landsCount * 40 <= playerDataController.answerCount) nextTownPossibleText.enabled = true;
         }
     }
 }

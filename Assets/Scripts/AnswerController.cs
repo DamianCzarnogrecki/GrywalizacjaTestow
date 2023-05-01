@@ -18,6 +18,8 @@ public class AnswerController : MonoBehaviour
     public Sprite goodAnswerIcon, wrongAnswerIcon;
     public Timer timer;
     private int playerID;
+    public PlayerDataController playerDataController;
+    private TextMeshProUGUI nextTownPossibleText;
 
     public void StartCheckingAnswer()
     {
@@ -96,5 +98,12 @@ public class AnswerController : MonoBehaviour
             yield return new WaitUntil(() => task.IsCompleted);
             response = task.Result;
         }
+
+        
+        playerDataController = GameObject.Find("PlayerData").GetComponent<PlayerDataController>();
+        nextTownPossibleText = GameObject.Find("NextTownPossibleText").GetComponent<TextMeshProUGUI>(); 
+        playerDataController.answerCount += 1;
+        if(playerDataController.landsCount * 40 <= playerDataController.answerCount) nextTownPossibleText.enabled = true;
+        
     }
 }

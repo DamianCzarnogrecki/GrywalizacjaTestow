@@ -11,6 +11,7 @@ public class PlayerDataController : MonoBehaviour
     public static PlayerDataController PlayerDataControllerInstance { get; private set; }
     public int playerid = 0;
     public int landsCount = 0;
+    public int answerCount = 0;
     public float correctAnswerPercent = 0;
     public LoginController loginController;
     private TextMeshProUGUI currentNrOfTownsText;
@@ -58,6 +59,12 @@ public class PlayerDataController : MonoBehaviour
         currentEpoch = suitableEpoch.name;
         currentEpochText = GameObject.Find("PlayerInfoPanel").transform.Find("CurrentEpoch").GetComponent<TextMeshProUGUI>();
         currentEpochText.text = currentEpoch;
+    }
 
+    public IEnumerator GetAnswerCount()
+    {
+        UnityWebRequest request = UnityWebRequest.Get($"https://localhost:7060/api/getallanswerscountofaplayer/{playerid}");
+        yield return request.SendWebRequest();
+        int.TryParse(request.downloadHandler.text, out answerCount);
     }
 }

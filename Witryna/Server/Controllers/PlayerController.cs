@@ -118,16 +118,27 @@ namespace BlazorApp1.Server.Controllers
                                         where q.is_correct == 1
                                         join g in context.given_answer on q.id equals g.question_answer_id
                                         join aq in context.answered_question on g.answered_question_id equals aq.id
-                                        where aq.player_id == playerID // filter by player ID
+                                        where aq.player_id == playerID
                                         select g).CountAsync();
 
             var allAnswers = await (from a in context.given_answer
                                     join aq in context.answered_question on a.answered_question_id equals aq.id
-                                    where aq.player_id == playerID // filter by player ID
+                                    where aq.player_id == playerID
                                     select a).CountAsync();
 
             float correctAnswerRatio = allAnswers > 0 ? (float)correctAnswers / (float)allAnswers : 0f;
             return Ok(correctAnswerRatio);
+        }
+
+        [HttpGet("getallanswerscountofaplayer/{playerID}")]
+        public async Task<ActionResult<int>> GetAllAnswersCountOfAPlayer(int playerID)
+        {
+            var allAnswers = await (from a in context.given_answer
+                                    join aq in context.answered_question on a.answered_question_id equals aq.id
+                                    where aq.player_id == playerID
+                                    select a).CountAsync();
+
+            return Ok(allAnswers);
         }
 
         [HttpGet("getavgnrofcities")]
@@ -214,6 +225,27 @@ namespace BlazorApp1.Server.Controllers
         {
             public string login { get; set; }
             public string password { get; set; }
+        }
+
+        [HttpGet("lands")]
+        public async Task<ActionResult<IEnumerable<LandData>>> GetLandIDs()
+        {
+            var lands = await context.land
+                .Select(l => new LandData
+                {
+                    id = l.id,
+                    player_id = l.player_id,
+                    login = l.player.login
+                })
+                .ToListAsync();
+            return Ok(lands);
+        }
+
+        public class LandData
+        {
+            public int id { get; set; }
+            public int? player_id { get; set; }
+            public string login { get; set; }
         }
     }
 }
