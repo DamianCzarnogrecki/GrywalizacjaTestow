@@ -20,7 +20,7 @@ public static class Epoch
 
     public static SingleEpoch[] Epochs = new SingleEpoch[]
     {
-        new SingleEpoch("neolit", 0, 0f),
+        new SingleEpoch("neolitu", 0, 0f),
         new SingleEpoch("brązu", 2, 37.5f),
         new SingleEpoch("żelaza", 4, 45f),
         new SingleEpoch("średniowiecza", 6, 52.5f),

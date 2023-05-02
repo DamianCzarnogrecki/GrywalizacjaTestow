@@ -224,7 +224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 290}
+  m_AnchoredPosition: {x: 186, y: 290}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &58447807
@@ -241,10 +241,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Rows: 10
   Columns: 10
-  TileWidth: 30
-  TileHeight: 30
+  TileWidth: 35
+  TileHeight: 35
   TilePrefab: {fileID: 5866688441832693712, guid: cbf8b85a8d113b04d9f96aae37ed5534, type: 3}
   TilesOffset: {x: 0, y: 0}
+  playerIds: 
+  epochTownSprite:
+  - {fileID: 21300000, guid: c4a05bb80a2c8784782460a65b9482b6, type: 3}
+  - {fileID: 21300000, guid: eb55489b49790af45b5dd76c8086ef21, type: 3}
+  - {fileID: 21300000, guid: 1d9d0c20fd7cd78429566d81c969b8a5, type: 3}
+  - {fileID: 21300000, guid: 7174887928b678948aab1ea4597090b2, type: 3}
+  - {fileID: 21300000, guid: 9dd9b930ecdd30f4495b05e8de9d7f3c, type: 3}
+  - {fileID: 21300000, guid: 26c76526ec677014f92df79ff5df3d11, type: 3}
+  - {fileID: 21300000, guid: 5459a213de7259c49b5e25f83ddfee69, type: 3}
+  - {fileID: 21300000, guid: bc6e35eeebf3b3e47b33a267fd7c8a03, type: 3}
+  - {fileID: 21300000, guid: d5a2e686b7bb6bb46919228c1076c3da, type: 3}
+  - {fileID: 21300000, guid: 3879ea134692126428e65b762dc1809c, type: 3}
+  - {fileID: 21300000, guid: bd8a024577ca9f2439b35ac95ff7195f, type: 3}
+  - {fileID: 21300000, guid: ecec171c869ec614d8cdb027e81a0a59, type: 3}
 --- !u!1 &83488976
 GameObject:
   m_ObjectHideFlags: 0

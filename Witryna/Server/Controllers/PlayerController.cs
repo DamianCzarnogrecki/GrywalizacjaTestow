@@ -231,13 +231,13 @@ namespace BlazorApp1.Server.Controllers
         public async Task<ActionResult<IEnumerable<LandData>>> GetLandIDs()
         {
             var lands = await context.land
-                .Select(l => new LandData
-                {
-                    id = l.id,
-                    player_id = l.player_id,
-                    login = l.player.login
-                })
-                .ToListAsync();
+            .Select(l => new LandData
+            {
+                id = l.id,
+                player_id = l.player_id,
+                login = l.player.login,
+            })
+            .ToListAsync();
             return Ok(lands);
         }
 
@@ -246,6 +246,55 @@ namespace BlazorApp1.Server.Controllers
             public int id { get; set; }
             public int? player_id { get; set; }
             public string login { get; set; }
+        }
+
+        [HttpGet("getidratiopairs")]
+        public async Task<ActionResult<IEnumerable<CorrectAnswerRatio>>> GetIdRatioPairs()
+        {
+            var playerCorrectAnswers = await context.Player
+                .Select(p => new CorrectAnswerRatio
+                {
+                    PlayerID = p.id,
+                    Ratio = context.given_answer
+                        .Where(ga => ga.answered_question.player_id == p.id && ga.question_answer.is_correct == 1)
+                        .Count() / Math.Max((float)context.given_answer
+                            .Where(ga => ga.answered_question.player_id == p.id)
+                            .Count(), 1)
+                })
+                .ToListAsync();
+
+            return Ok(playerCorrectAnswers);
+        }
+
+        public class CorrectAnswerRatio
+        {
+            public int PlayerID { get; set; }
+            public float Ratio { get; set; }
+        }
+
+        [HttpGet("getlandsofplayers")]
+        public async Task<ActionResult<List<LandOfPlayer>>> GetLandsOfPlayers()
+        {
+            var playerLands = from player in context.Player
+                              join land in context.land on player.id equals land.player_id into landsGroup
+                              from land in landsGroup.DefaultIfEmpty()
+                              group land by player.id into g
+                              select new LandOfPlayer { PlayerId = g.Key, NumberOfLands = g.Count(l => l != null) };
+
+            return Ok(playerLands.ToList());
+        }
+
+        public class LandOfPlayer
+        {
+            public int PlayerId { get; set; }
+            public int NumberOfLands { get; set; }
+        }
+
+        [HttpGet("getplayerids")]
+        public async Task<ActionResult<List<int>>> GetPlayerIds()
+        {
+            var playerIds = await context.Player.Select(player => player.id).OrderBy(id => id).ToListAsync();
+            return Ok(playerIds);
         }
     }
 }
