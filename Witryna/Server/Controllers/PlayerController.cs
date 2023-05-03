@@ -296,5 +296,24 @@ namespace BlazorApp1.Server.Controllers
             var playerIds = await context.Player.Select(player => player.id).OrderBy(id => id).ToListAsync();
             return Ok(playerIds);
         }
+
+        
+        [HttpGet("checklandownership/{landID}")]
+        public async Task<ActionResult<bool>> CheckLandOwnership(int landID)
+        {
+            var land = await context.land.FindAsync(landID);
+            if (land == null) return false;
+            return land.player_id != null;
+        }
+
+        [HttpPut("land/{landID}/player/{playerID}")]
+        public async Task<IActionResult> ClaimALand(int landID, int playerID)
+        {
+            var land = await context.land.FindAsync(landID);
+            land.player_id = playerID;
+            await context.SaveChangesAsync();
+            return NoContent();
+        }
+
     }
 }

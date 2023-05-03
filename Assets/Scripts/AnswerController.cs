@@ -101,9 +101,12 @@ public class AnswerController : MonoBehaviour
 
         
         playerDataController = GameObject.Find("PlayerData").GetComponent<PlayerDataController>();
-        nextTownPossibleText = GameObject.Find("NextTownPossibleText").GetComponent<TextMeshProUGUI>(); 
         playerDataController.answerCount += 1;
-        if(playerDataController.landsCount * 40 <= playerDataController.answerCount) nextTownPossibleText.enabled = true;
+        if(playerDataController.landsCount * 40 <= playerDataController.answerCount)
+        {
+            nextTownPossibleText = GameObject.Find("NextTownPossibleText").GetComponent<TextMeshProUGUI>();
+            nextTownPossibleText.enabled = true;
+        } 
         
     }
 }

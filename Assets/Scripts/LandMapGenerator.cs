@@ -28,6 +28,11 @@ public class LandMapGenerator : MonoBehaviour
 
     void Start()
     {
+        GenerateTheMap();
+    }
+
+    public void GenerateTheMap()
+    {
         AllPlayersMapData = new List<MapDataOfAPlayer>();
 
         tiles = new GameObject[Rows, Columns];
@@ -55,8 +60,6 @@ public class LandMapGenerator : MonoBehaviour
         
         AssignLandOwners();
         StartCoroutine(LoadAllPlayersData());
-
-
     }
 
     async void AssignLandOwners()
@@ -71,6 +74,7 @@ public class LandMapGenerator : MonoBehaviour
                 land.OwnerID = landOwner.player_id ?? 0;
                 var ownerTextMesh = tile.transform.Find("OwnerText").gameObject.GetComponent<TextMeshProUGUI>();
                 ownerTextMesh.text = landOwner.login ?? "";
+                if(land.OwnerID > 0) Destroy(land.GetComponent<Button>());
             }
         }
     }
@@ -137,7 +141,7 @@ public class LandMapGenerator : MonoBehaviour
             {
                 yield return null;
             }
-            
+
             float correctAnswerRatio;
 
             if (float.TryParse(correctAnswersRequest.downloadHandler.text, NumberStyles.Float, CultureInfo.InvariantCulture, out correctAnswerRatio))
@@ -185,7 +189,6 @@ public class LandMapGenerator : MonoBehaviour
         //przypisanie odpowiednich sprite'ow miastom
         foreach (GameObject tile in tiles)
         {
-            
             for (int i = 0; i < Epoch.Epochs.Length; i++)
             {
                 if (tile.GetComponent<Land>().Epoch == Epoch.Epochs[i].name)
