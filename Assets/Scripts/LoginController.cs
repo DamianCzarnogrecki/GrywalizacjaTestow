@@ -20,13 +20,13 @@ public class LoginController : MonoBehaviour
     private string nickname, password;
     public int playerid = 0;
     [SerializeField]
-    private GameObject loginPanel, loginButton, logoutButton;
+    private GameObject loginPanel, loginButton, logoutButton, gameGUI;
     public PlayerDataController playerDataController;
     private TextMeshProUGUI nicknameText, nextTownPossibleText;
     
     void Start()
     {
-        nextTownPossibleText = GameObject.Find("NextTownPossibleText").GetComponent<TextMeshProUGUI>();    
+        passwordField.asteriskChar = '-';
     }
 
     public void Login()
@@ -43,7 +43,7 @@ public class LoginController : MonoBehaviour
             || Regex.IsMatch(password, "^[A-Za-z0-9_]", RegexOptions.IgnoreCase) == false
         )
         {
-            errorText.text = "PODANO NIEPRAWIDŁOWE DANE";
+            errorText.text = "PODANO NIEPRAWIDLOWE DANE";
         }
         else
         {
@@ -68,9 +68,19 @@ public class LoginController : MonoBehaviour
                     var response = task.Result.Content.ReadAsStringAsync().Result;
                     Int32.TryParse(response, out returnedID);
 
-                    errorText.text = returnedID == 0 ? "BŁĄD LOGOWANIA" : "";
+                    if(returnedID == 0)
+                    {
+                        errorText.text = "WPROWADZONO NIEPRAWIDLOWE POSWIADCZENIA";
+                        yield break;
+                    }
                 }
-                else errorText.text = "BŁĄD LOGOWANIA";
+                else
+                {
+                    errorText.text = "BLAD LOGOWANIA";
+                    yield break;
+                }
+                Destroy(loginPanel);
+                gameGUI.SetActive(true);
                 playerDataController.playerid = returnedID;
                 nicknameText = GameObject.Find("PlayerInfoPanel").transform.Find("Nickname").GetComponent<TextMeshProUGUI>();
                 nicknameText.text = nickname;
@@ -80,7 +90,12 @@ public class LoginController : MonoBehaviour
             yield return StartCoroutine(playerDataController.GetEpoch());
             yield return StartCoroutine(playerDataController.GetAnswerCount());
 
-            if(playerDataController.landsCount * 40 <= playerDataController.answerCount) nextTownPossibleText.enabled = true;
+            if(playerDataController.landsCount * 40 <= playerDataController.answerCount)
+            {
+                nextTownPossibleText = GameObject.Find("NextTownPossibleText").GetComponent<TextMeshProUGUI>();
+                nextTownPossibleText.enabled = true;
+            }
+            
         }
     }
 }
