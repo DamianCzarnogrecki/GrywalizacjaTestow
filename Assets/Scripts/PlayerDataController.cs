@@ -14,8 +14,6 @@ public class PlayerDataController : MonoBehaviour
     public int answerCount = 0;
     public float correctAnswerPercent = 0;
     public LoginController loginController;
-    private TextMeshProUGUI currentNrOfTownsText;
-    private TextMeshProUGUI currentEpochText;
     private string currentEpoch;
 
     private void Awake() 
@@ -42,8 +40,8 @@ public class PlayerDataController : MonoBehaviour
         UnityWebRequest request = UnityWebRequest.Get($"https://localhost:7060/api/getplayerlandscount/{playerid}");
         yield return request.SendWebRequest();
         int.TryParse(request.downloadHandler.text, out landsCount);
-        currentNrOfTownsText = GameObject.Find("PlayerInfoPanel").transform.Find("CurrentNrOfTowns").GetComponent<TextMeshProUGUI>();
-        currentNrOfTownsText.text = landsCount.ToString();
+        var currentNrOfTownsText = GameObject.Find("PlayerInfoPanel").transform.Find("CurrentNrOfTowns").GetComponent<TextMeshProUGUI>();
+        currentNrOfTownsText.text = "miasta: " + landsCount.ToString();
     }
 
     public IEnumerator GetEpoch()
@@ -57,8 +55,8 @@ public class PlayerDataController : MonoBehaviour
         //wyliczenie epoki
         Epoch.SingleEpoch suitableEpoch = Epoch.Epochs.Where(epoch => epoch.townsRequired <= landsCount && epoch.correctAnswerRatioRequired <= correctAnswerPercent).OrderByDescending(epoch => epoch.correctAnswerRatioRequired).FirstOrDefault();
         currentEpoch = suitableEpoch.name;
-        currentEpochText = GameObject.Find("PlayerInfoPanel").transform.Find("CurrentEpoch").GetComponent<TextMeshProUGUI>();
-        currentEpochText.text = currentEpoch;
+        var currentEpochText = GameObject.Find("PlayerInfoPanel").transform.Find("CurrentEpoch").GetComponent<TextMeshProUGUI>();
+        currentEpochText.text = "epoka: " + currentEpoch;
     }
 
     public IEnumerator GetAnswerCount()

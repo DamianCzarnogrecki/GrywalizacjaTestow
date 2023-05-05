@@ -34,16 +34,10 @@ public class AnswerController : MonoBehaviour
         foreach (GameObject button in buttons)
         {
             Button buttonComponent = button.GetComponent<Button>();
-            if (buttonComponent != null)
-            {
-                buttonComponent.enabled = false;
-            }
+            buttonComponent.enabled = false;
 
             Image imageComponent = button.GetComponent<Image>();
-            if (imageComponent != null)
-            {
-                imageComponent.color = new Color32(96, 96, 96, 255);
-            }
+            imageComponent.color = new Color32(96, 96, 96, 196);
         }
     }
 
@@ -75,8 +69,8 @@ public class AnswerController : MonoBehaviour
             string content = readTask.Result;
             int result = int.Parse(content);
 
-            if(result == 1) answerIcon.sprite = goodAnswerIcon;
-            else answerIcon.sprite = wrongAnswerIcon;
+            if(result == 1) answerIcon.color = new Color32(0, 255, 0, 196);
+            else answerIcon.color = new Color32(255, 0, 0, 196);
 
             yield return PostAnswer();
         }

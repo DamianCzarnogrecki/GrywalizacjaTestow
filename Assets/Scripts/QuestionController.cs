@@ -89,7 +89,7 @@ public class QuestionController : MonoBehaviour
             for (int i = 0; i < answerTexts.Count; i++)
             {
                 GameObject answerObject = Instantiate(answerPrefab, answersContainer.transform);
-                answerObject.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, (-i * buttonHeight)+130);
+                answerObject.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, (-i * buttonHeight)+100);
                 answerObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = answerTexts[i];
                 answerObject.GetComponent<AnswerController>().answerID = answerIDs[i];
                 answerObject.GetComponent<AnswerController>().questionID = questionID;

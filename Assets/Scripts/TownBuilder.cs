@@ -59,8 +59,11 @@ public class TownBuilder : MonoBehaviour
         else
         {
             StartCoroutine(ClaimALand());
-            playerDataController.landsCount++;
-            if(playerDataController.landsCount * 40 > playerDataController.answerCount) nextTownPossibleText.enabled = false;
+            var lands = playerDataController.landsCount;
+            lands++;
+            var currentNrOfTownsText = GameObject.Find("PlayerInfoPanel").transform.Find("CurrentNrOfTowns").GetComponent<TextMeshProUGUI>();
+            currentNrOfTownsText.text = "miasta: " + lands.ToString();
+            if(lands * 40 > playerDataController.answerCount) nextTownPossibleText.enabled = false;
         }
 
         var generator = GameObject.Find("LandMapGenerator");

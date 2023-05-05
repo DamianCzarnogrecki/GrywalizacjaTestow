@@ -20,9 +20,11 @@ public class LoginController : MonoBehaviour
     private string nickname, password;
     public int playerid = 0;
     [SerializeField]
-    private GameObject loginPanel, loginButton, logoutButton, gameGUI;
+    private GameObject loginPanel, loginButton, logoutButton, gameGUI, theCanvas;
     public PlayerDataController playerDataController;
     private TextMeshProUGUI nicknameText, nextTownPossibleText;
+    [SerializeField]
+    private Sprite gameBG;
     
     void Start()
     {
@@ -80,10 +82,11 @@ public class LoginController : MonoBehaviour
                     yield break;
                 }
                 Destroy(loginPanel);
+                theCanvas.GetComponent<Image>().sprite = gameBG;
                 gameGUI.SetActive(true);
                 playerDataController.playerid = returnedID;
                 nicknameText = GameObject.Find("PlayerInfoPanel").transform.Find("Nickname").GetComponent<TextMeshProUGUI>();
-                nicknameText.text = nickname;
+                nicknameText.text = "gracz: " + nickname;
             }
 
             yield return StartCoroutine(playerDataController.GetLandsCount());
@@ -95,7 +98,6 @@ public class LoginController : MonoBehaviour
                 nextTownPossibleText = GameObject.Find("NextTownPossibleText").GetComponent<TextMeshProUGUI>();
                 nextTownPossibleText.enabled = true;
             }
-            
         }
     }
 }
