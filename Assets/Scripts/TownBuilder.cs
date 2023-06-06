@@ -24,12 +24,12 @@ public class TownBuilder : MonoBehaviour
 
         if(playerID <= 0)
         {
-            DisplayErrorMessage("Musisz być zalogowany.");
+            DisplayErrorMessage("Musisz byc zalogowany.");
             return;
         }
         if(!nextTownPossibleText.enabled)
         {
-            DisplayErrorMessage("Nie możesz jeszcze zbudować kolejnego miasta.");
+            DisplayErrorMessage("Nie mozesz jeszcze zbudowac kolejnego miasta.");
             return;
         }
         StartCoroutine(GetLandOwnership(landID));
@@ -41,21 +41,15 @@ public class TownBuilder : MonoBehaviour
         using (UnityWebRequest webRequest = UnityWebRequest.Get(url))
         {
             yield return webRequest.SendWebRequest();
-            //if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.ProtocolError) Debug.LogError("Error: " + webRequest.error);
-            //else{
-                string responseText = webRequest.downloadHandler.text;
-                bool isOwned = bool.Parse(responseText);
-                BuildTown(isOwned);
-            //}
+            string responseText = webRequest.downloadHandler.text;
+            bool isOwned = bool.Parse(responseText);
+            BuildTown(isOwned);
         }
     }
 
     public void BuildTown(bool isOwned)
     {
-        if(isOwned)
-        {
-            DisplayErrorMessage("Ten teren jest już zajęty.");
-        }
+        if(isOwned) DisplayErrorMessage("Ten teren jest juz zajety.");
         else
         {
             StartCoroutine(ClaimALand());
@@ -67,10 +61,7 @@ public class TownBuilder : MonoBehaviour
         }
 
         var generator = GameObject.Find("LandMapGenerator");
-        for (int i = generator.transform.childCount - 1; i >= 0; i--)
-        {
-            Destroy(generator.transform.GetChild(i).gameObject);
-        }
+        for (int i = generator.transform.childCount - 1; i >= 0; i--) Destroy(generator.transform.GetChild(i).gameObject);
         generator.GetComponent<LandMapGenerator>().GenerateTheMap();
     }
 

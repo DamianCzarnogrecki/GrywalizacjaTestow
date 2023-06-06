@@ -18,15 +18,8 @@ public class PlayerDataController : MonoBehaviour
 
     private void Awake() 
     { 
-        //singleton: usuniecie ewentualnych innych instancji
-        if (PlayerDataControllerInstance != null && PlayerDataControllerInstance != this) 
-        { 
-            Destroy(this); 
-        } 
-        else 
-        { 
-            PlayerDataControllerInstance = this; 
-        } 
+        if (PlayerDataControllerInstance != null && PlayerDataControllerInstance != this) Destroy(this); 
+        else PlayerDataControllerInstance = this; 
     }
 
     public void GetID()

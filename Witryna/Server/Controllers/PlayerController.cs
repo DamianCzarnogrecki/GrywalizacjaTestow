@@ -66,12 +66,12 @@ namespace BlazorApp1.Server.Controllers
             }
         }
 
-        private void Hashing(string haslo, out byte[] hash, out byte[] salt)
+        private void Hashing(string password, out byte[] hash, out byte[] salt)
         {
             using (var hmac = new HMACSHA512())
             {
                 salt = hmac.Key;
-                hash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(haslo));
+                hash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
             }
         }
 
@@ -198,16 +198,13 @@ namespace BlazorApp1.Server.Controllers
 
             if (playerDataFromDatabase.password_hash != null && playerDataFromDatabase.password_salt != null)
             {
-                if (
+                if(
                     PasswordVerification(
                         playerDataFromUser.password,
                         playerDataFromDatabase.password_hash,
                         playerDataFromDatabase.password_salt
                     )
-                )
-                {
-                    return playerDataFromDatabase.id;
-                }
+                ) return playerDataFromDatabase.id;
             }
             return 0;
         }
@@ -216,8 +213,8 @@ namespace BlazorApp1.Server.Controllers
         {
             using (var hmac = new HMACSHA512(salt))
             {
-                var gotowyHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(haslo));
-                return gotowyHash.SequenceEqual(hash);
+                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(haslo));
+                return computedHash.SequenceEqual(hash);
             }
         }
 

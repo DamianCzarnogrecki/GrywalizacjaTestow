@@ -354,7 +354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Liczba miast
+  m_text: miasta
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f60e40f8cdf0d104aa08546a40f43a51, type: 2}
   m_sharedMaterial: {fileID: 4901458529662172568, guid: f60e40f8cdf0d104aa08546a40f43a51, type: 2}
@@ -381,8 +381,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1999,8 +1999,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2062,7 +2062,7 @@ GameObject:
   - component: {fileID: 816943259}
   - component: {fileID: 816943261}
   m_Layer: 5
-  m_Name: bg_secondary
+  m_Name: BackgroundSecondary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4107,7 +4107,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Poziom rozwoju
+  m_text: epoka
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f60e40f8cdf0d104aa08546a40f43a51, type: 2}
   m_sharedMaterial: {fileID: 4901458529662172568, guid: f60e40f8cdf0d104aa08546a40f43a51, type: 2}
@@ -4134,8 +4134,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

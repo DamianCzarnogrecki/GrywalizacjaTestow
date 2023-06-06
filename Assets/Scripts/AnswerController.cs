@@ -52,19 +52,13 @@ public class AnswerController : MonoBehaviour
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
             var request = client.GetAsync(url);
-            while (!request.IsCompleted)
-            {
-                yield return null;
-            }
+            while (!request.IsCompleted) yield return null;
 
             HttpResponseMessage response = request.Result;
             response.EnsureSuccessStatusCode();
 
             var readTask = response.Content.ReadAsStringAsync();
-            while (!readTask.IsCompleted)
-            {
-                yield return null;
-            }
+            while (!readTask.IsCompleted) yield return null;
 
             string content = readTask.Result;
             int result = int.Parse(content);
@@ -93,14 +87,13 @@ public class AnswerController : MonoBehaviour
             response = task.Result;
         }
 
-        
         playerDataController = GameObject.Find("PlayerData").GetComponent<PlayerDataController>();
         playerDataController.answerCount += 1;
+
         if(playerDataController.landsCount * 40 <= playerDataController.answerCount)
         {
             nextTownPossibleText = GameObject.Find("NextTownPossibleText").GetComponent<TextMeshProUGUI>();
             nextTownPossibleText.enabled = true;
         } 
-        
     }
 }

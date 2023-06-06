@@ -125,22 +125,13 @@ public class LandMapGenerator : MonoBehaviour
 
             UnityWebRequest landsRequest = UnityWebRequest.Get($"https://localhost:7060/api/getplayerlandscount/{playerId}");
             landsRequest.SendWebRequest();
-            while (!landsRequest.isDone)
-            {
-                yield return null;
-            }
+            while (!landsRequest.isDone) yield return null;
             int landsCount;
-            if (int.TryParse(landsRequest.downloadHandler.text, out landsCount))
-            {
-                playerData.NrOfLands = landsCount;
-            }
+            if (int.TryParse(landsRequest.downloadHandler.text, out landsCount)) playerData.NrOfLands = landsCount;
 
             UnityWebRequest correctAnswersRequest = UnityWebRequest.Get($"https://localhost:7060/api/getcorrectanswerscount/{playerId}");
             correctAnswersRequest.SendWebRequest();
-            while (!correctAnswersRequest.isDone)
-            {
-                yield return null;
-            }
+            while (!correctAnswersRequest.isDone) yield return null;
 
             float correctAnswerRatio;
 
@@ -152,20 +143,13 @@ public class LandMapGenerator : MonoBehaviour
 
             UnityWebRequest answerCountRequest = UnityWebRequest.Get($"https://localhost:7060/api/getallanswerscountofaplayer/{playerId}");
             answerCountRequest.SendWebRequest();
-            while (!answerCountRequest.isDone)
-            {
-                yield return null;
-            }
+            while (!answerCountRequest.isDone) yield return null;
             int answerCount;
-            if (int.TryParse(answerCountRequest.downloadHandler.text, out answerCount))
-            {
-                playerData.AnswerCount = answerCount;
-            }
+            if (int.TryParse(answerCountRequest.downloadHandler.text, out answerCount)) playerData.AnswerCount = answerCount;
 
             Epoch.SingleEpoch suitableEpoch = Epoch.Epochs.Where(epoch => epoch.townsRequired <= playerData.NrOfLands && epoch.correctAnswerRatioRequired <= playerData.CorrectAnswerRatio).OrderByDescending(epoch => epoch.correctAnswerRatioRequired).FirstOrDefault();
             playerData.Epoch = suitableEpoch.name;
 
-            // add the player data to the list
             AllPlayersMapData.Add(playerData);
 
             //przypisanie epok landom
@@ -178,26 +162,23 @@ public class LandMapGenerator : MonoBehaviour
                     for (int j = 0; j < tiles.GetLength(1); j++)
                     {
                         Land landScript = tiles[i, j].GetComponent<Land>();
-                        if (landScript.OwnerID == ownerID)
-                        {
-                            landScript.Epoch = epoch;
-                        }
+                        if (landScript.OwnerID == ownerID) landScript.Epoch = epoch;
                     }
                 }
             }
 
-        //przypisanie odpowiednich sprite'ow miastom
-        foreach (GameObject tile in tiles)
-        {
-            for (int i = 0; i < Epoch.Epochs.Length; i++)
+            //przypisanie odpowiednich sprite'ow miastom
+            foreach (GameObject tile in tiles)
             {
-                if (tile.GetComponent<Land>().Epoch == Epoch.Epochs[i].name)
+                for (int i = 0; i < Epoch.Epochs.Length; i++)
                 {
-                    tile.GetComponent<Image>().sprite = epochTownSprite[i];
-                    break;
+                    if (tile.GetComponent<Land>().Epoch == Epoch.Epochs[i].name)
+                    {
+                        tile.GetComponent<Image>().sprite = epochTownSprite[i];
+                        break;
+                    }
                 }
             }
-        }
         }
     }
 
@@ -205,10 +186,7 @@ public class LandMapGenerator : MonoBehaviour
     {
         UnityWebRequest www = UnityWebRequest.Get($"https://localhost:7060/api/getplayerids");
         www.SendWebRequest();
-        while (!www.isDone)
-        {
-            yield return null;
-        }
+        while (!www.isDone) yield return null;
         string response = www.downloadHandler.text;
         playerIds = JsonConvert.DeserializeObject<List<int>>(response);
     }

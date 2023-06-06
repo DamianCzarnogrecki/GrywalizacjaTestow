@@ -10,15 +10,8 @@ public class Timer : MonoBehaviour
 
     private void Awake() 
     { 
-        //singleton: usuniecie ewentualnych innych instancji
-        if (TimerInstance != null && TimerInstance != this) 
-        { 
-            Destroy(this); 
-        } 
-        else 
-        { 
-            TimerInstance = this; 
-        } 
+        if (TimerInstance != null && TimerInstance != this) Destroy(this); 
+        else TimerInstance = this;
     }
 
     void Update()

@@ -37,9 +37,7 @@ namespace BlazorApp1.Server.Controllers
         public async Task<ActionResult<int>> CheckIfAnswerIsCorrect(int question_id, int answer_id)
         {
             var questionAnswer = await context.question_answer.SingleOrDefaultAsync(qa => qa.question_id == question_id && qa.answer_id == answer_id);
-
-            if (questionAnswer == null) return NotFound();
-
+            //if (questionAnswer == null) return NotFound();
             return questionAnswer.is_correct;
         }
 
